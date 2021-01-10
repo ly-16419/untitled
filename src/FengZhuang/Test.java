@@ -1,6 +1,10 @@
 package FengZhuang;
 
 public class Test extends User{
+    public Test(String password) {
+        super(password);
+    }
+
     public static void main(String[] agre){
         Student st=new Student("zhangsan");
 

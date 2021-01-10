@@ -4,6 +4,20 @@ public class User {
     int id;
     String name;
 
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    String password;
+
+    public User(String password){
+        this.password=password;
+    }
+
     public int getId() {
         return id;
     }

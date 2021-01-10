@@ -6,6 +6,7 @@ public class Teacher extends User{
     private String gongzhi;
 
     public Teacher(String zhicheng,String gongzhi){
+        super("123455");
         this.zhicheng=zhicheng;
         this.gongzhi=gongzhi;
     }

@@ -1,18 +1,30 @@
 package FengZhuang;
 
 public class Student extends User{
+    private String zhuanye;
 
-    private String password;
 
-    public Student(String password){
-        this.password=password;
+    public String getZhuanye() {
+        return zhuanye;
     }
 
-    public String getPassword() {
-        return password;
+    public void setZhuanye(String zhuanye) {
+        this.zhuanye = zhuanye;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public Student(String zhuanye){
+        super("123456");
+        this.zhuanye=zhuanye;
+    }
+
+    //@Override
+    //public String toString() {
+        //return "zhuanye="+zhuanye+",password="+password;
+    //}
+
+
+    @Override
+    public String toString() {
+        return "zhuanye="+zhuanye+",password="+password;
     }
 }
