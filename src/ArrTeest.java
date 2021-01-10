@@ -13,4 +13,5 @@ public class ArrTeest {
             System.out.println("a[" + i + "]" + a[i]);
         }
     }
+
 }
